@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\penya\\Documents\\ContactLookupDummy\\ContactLookupDummy\\ContactLookupDummy.csproj": {}
+    "D:\\Users\\Penny\\Documents\\ContactLookupDummy\\ContactLookupDummy\\ContactLookupDummy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\penya\\Documents\\ContactLookupDummy\\ContactLookupDummy\\ContactLookupDummy.csproj": {
+    "D:\\Users\\Penny\\Documents\\ContactLookupDummy\\ContactLookupDummy\\ContactLookupDummy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\penya\\Documents\\ContactLookupDummy\\ContactLookupDummy\\ContactLookupDummy.csproj",
+        "projectUniqueName": "D:\\Users\\Penny\\Documents\\ContactLookupDummy\\ContactLookupDummy\\ContactLookupDummy.csproj",
         "projectName": "ContactLookupDummy",
-        "projectPath": "C:\\Users\\penya\\Documents\\ContactLookupDummy\\ContactLookupDummy\\ContactLookupDummy.csproj",
+        "projectPath": "D:\\Users\\Penny\\Documents\\ContactLookupDummy\\ContactLookupDummy\\ContactLookupDummy.csproj",
         "packagesPath": "C:\\Users\\penya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\penya\\Documents\\ContactLookupDummy\\ContactLookupDummy\\obj\\",
+        "outputPath": "D:\\Users\\Penny\\Documents\\ContactLookupDummy\\ContactLookupDummy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

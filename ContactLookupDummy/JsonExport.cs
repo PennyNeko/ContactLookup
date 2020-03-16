@@ -1,8 +1,5 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
 namespace ContactLookupDummy
 {
@@ -22,14 +19,14 @@ namespace ContactLookupDummy
             path = path + fileName + ".json";
             if (!FileExists(path))
             {
-                
+
             }
             File.WriteAllText(path, jsonString);
         }
 
         protected void JsonSave(Type objectToSerialize, string fileName, string path = @"./../../../data/")
         {
-            JsonStringSave(JsonStringExport(objectToSerialize),fileName, path);
+            JsonStringSave(JsonStringExport(objectToSerialize), fileName, path);
         }
     }
 }

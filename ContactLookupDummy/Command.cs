@@ -1,23 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Reflection;
 
 namespace ContactLookupDummy
 {
     class Command
     {
-        public Command(string commandName, Type commandType, string[] argumentNames, Type[] arguments)
+        public Command(string commandName, Type classType, Dictionary<string, MethodInfo> methods)
         {
             CommandName = commandName;
-            CommandType = commandType;
-            ArgumentNames = argumentNames;
-            Arguments = arguments;
+            ClassType = classType;
+            Methods = methods;
         }
 
         public string CommandName { set; get; }
-        public Type CommandType { set; get; }
-        public string[] ArgumentNames { set; get; }
-        public Type[] Arguments { set; get; } 
-        public string CommandInformation { set; get; }
+        public Type ClassType { set; get; }
+        public Dictionary<string, MethodInfo> Methods { set; get; }
     }
 }

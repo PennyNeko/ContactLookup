@@ -7,9 +7,9 @@ namespace ContactLookupDummy
 
         public CommandTypeAttribute(string name)
         {
-            CommandType = name;
+            CommandName = name;
         }
 
-        private string CommandType { set; get; }
+        public string CommandName { set; get; }
     }
 }

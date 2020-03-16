@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ContactLookupDummy": {
+      "commandName": "Project",
+      "commandLineArgs": "Search fn \"P\""
+    }
+  }
+}

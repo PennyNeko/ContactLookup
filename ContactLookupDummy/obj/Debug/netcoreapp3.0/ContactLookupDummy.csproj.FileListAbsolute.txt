@@ -11,3 +11,16 @@ C:\Users\penya\Documents\ContactLookupDummy\ContactLookupDummy\bin\Debug\netcore
 C:\Users\penya\Documents\ContactLookupDummy\ContactLookupDummy\bin\Debug\netcoreapp3.0\ContactLookupDummy.pdb
 C:\Users\penya\Documents\ContactLookupDummy\ContactLookupDummy\obj\Debug\netcoreapp3.0\ContactLookupDummy.dll
 C:\Users\penya\Documents\ContactLookupDummy\ContactLookupDummy\obj\Debug\netcoreapp3.0\ContactLookupDummy.pdb
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\bin\Debug\netcoreapp3.0\ContactLookupDummy.exe
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\bin\Debug\netcoreapp3.0\ContactLookupDummy.deps.json
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\bin\Debug\netcoreapp3.0\ContactLookupDummy.runtimeconfig.json
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\bin\Debug\netcoreapp3.0\ContactLookupDummy.runtimeconfig.dev.json
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\bin\Debug\netcoreapp3.0\ContactLookupDummy.dll
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\bin\Debug\netcoreapp3.0\ContactLookupDummy.pdb
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\obj\Debug\netcoreapp3.0\ContactLookupDummy.csprojAssemblyReference.cache
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\obj\Debug\netcoreapp3.0\ContactLookupDummy.AssemblyInfoInputs.cache
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\obj\Debug\netcoreapp3.0\ContactLookupDummy.AssemblyInfo.cs
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\obj\Debug\netcoreapp3.0\ContactLookupDummy.csproj.CopyComplete
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\obj\Debug\netcoreapp3.0\ContactLookupDummy.dll
+D:\Users\Penny\Documents\ContactLookupDummy\ContactLookupDummy\obj\Debug\netcoreapp3.0\ContactLookupDummy.pdb

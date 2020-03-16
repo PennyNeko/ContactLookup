@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Reflection;
 
 namespace ContactLookupDummy
 {
     internal class ArgumentAttribute : Attribute
     {
-        
+
 
         public ArgumentAttribute(string argument)
         {
