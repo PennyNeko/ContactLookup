@@ -7,7 +7,7 @@ namespace ContactLookupDummy
     {
         private string JsonStringExport(Type objectToSerialize)
         {
-            return JsonConvert.SerializeObject(objectToSerialize);
+            return JsonConvert.SerializeObject(objectToSerialize, Formatting.Indented, new JsonSerializerSettings { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
         }
 
         private bool FileExists(string path)

@@ -11,6 +11,8 @@ namespace ContactLookupDummy
         public CommandHandler()
         {
             commands = attributeHandler.CacheAllCommands();
+            CommandExport commandExport = new CommandExport();
+            commandExport.SetCommands(commands);
         }
         public void ArgumentHandling(string[] consoleText)
         {
