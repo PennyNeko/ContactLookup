@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactLookupDummy", "ContactLookupDummy\ContactLookupDummy.csproj", "{96FB6E17-81E8-4FC4-A307-0E1195E2CE8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactLookupDummy", "ContactLookupDummy\ContactLookupDummy.csproj", "{96FB6E17-81E8-4FC4-A307-0E1195E2CE8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

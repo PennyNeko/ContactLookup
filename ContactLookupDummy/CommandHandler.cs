@@ -21,7 +21,6 @@ namespace ContactLookupDummy
             string commandText = consoleText[2];
             CallCommand(commandName, commandArgument, commandText);
         }
-
         public void CallCommand(string commandName, string commandArgument, string commandText)
         {
             object result = null;
@@ -31,29 +30,30 @@ namespace ContactLookupDummy
                 if (c.CommandName == commandName)
                 {
                     result = attributeHandler.InvokeCommand(c.ClassType, c.Methods[commandArgument], new object[] { commandText });
+                    break;
                 }
             }
             if (result != null)
             {
-                Console.WriteLine(ResultHandling(result));    
+                Console.WriteLine(ResultHandling(result));
             }
         }
 
         public string ResultHandling(object result)
         {
-            IPrintable printer;
-            if (result is ICollection)
+            string mergedText = "";
+            foreach (var r in (IEnumerable)result)
             {
-                string mergedText = "";
-                foreach(var r in (ICollection)result)
+                if (r is string)
                 {
-                    printer = (IPrintable)r;
-                    mergedText += printer.Print()+"\n";
+                    mergedText += r;
                 }
-                return mergedText;
+                else if (r is IPrintable)
+                {
+                    mergedText += ((IPrintable)r).Print() + "\n";
+                }
             }
-            printer = (IPrintable)result;
-            return printer.ToString();
+            return mergedText;
         }
     }
 }

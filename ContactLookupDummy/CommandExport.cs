@@ -2,11 +2,11 @@
 
 namespace ContactLookupDummy
 {
-    class CommandExport : JsonExport<ICollection<Command>>
+    class CommandExport : JsonSerialize<ICollection<Command>>
     {
         public void SetCommands(ICollection<Command> commands, string fileName = "commands")
         {
-            JsonSave(commands, fileName);
+            Save(commands, fileName);
         }
     }
 }

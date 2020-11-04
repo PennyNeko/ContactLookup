@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace ContactLookupDummy
+﻿namespace ContactLookupDummy
 {
     class Program
     {

@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace ContactLookupDummy
 {
-    class CommandImport : JsonImport<ICollection<Command>>
+    class CommandImport : JsonDeserialize<ICollection<Command>>
     {
         public ICollection<Command> ImportCommands(string fileName = "commands")
         {
-            return JsonSave(fileName);
+            return Load(fileName);
         }
     }
 }

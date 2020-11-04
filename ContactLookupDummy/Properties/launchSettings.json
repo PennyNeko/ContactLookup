@@ -2,7 +2,7 @@
   "profiles": {
     "ContactLookupDummy": {
       "commandName": "Project",
-      "commandLineArgs": "Search fn \"P\""
+      "commandLineArgs": "Search fn \"Penny\""
     }
   }
 }

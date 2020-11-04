@@ -11,7 +11,7 @@ namespace ContactLookupDummy
             LastName = lastName;
         }
         public Contact(string contactInfo)
-        { 
+        {
             string[] splitContactInfo = contactInfo.Split(",");
             FirstName = splitContactInfo[0];
             LastName = splitContactInfo[1];
@@ -26,4 +26,5 @@ namespace ContactLookupDummy
         }
 
     }
+
 }

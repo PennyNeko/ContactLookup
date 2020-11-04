@@ -7,6 +7,8 @@ namespace ContactLookupDummy
 {
     class AttributeHandler
     {
+        
+
         private IEnumerable<Type> GetCommandClasses()
         {
             return AppDomain.CurrentDomain.GetAssemblies().SelectMany(x => x.GetTypes()).Where(x => x.IsClass).Where(x => x.GetCustomAttributes(typeof(CommandTypeAttribute), false).FirstOrDefault() != null);
